@@ -79,7 +79,7 @@ def back():
 	login()
 
 ah="TRICKER-"
-imt="-M4786=="
+imt="-M555=="
 ak=" ANUP-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
@@ -416,7 +416,7 @@ class Main:
 			print("    Thanks🥰♥️")
 			exit()
 		elif ANUP in ["1", "01"]:
-			os.system("xdg-open https://youtu.be/gxjhqkJL_h0")
+			os.system("xdg-open https://www.youtube.com/@ANUPGAMING54")
 			print("")
 			time.sleep(2.0)
 			print("\033[1;33m    Apna nam type kro")
@@ -1311,7 +1311,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/Anupsantra/blob/main/trick.txt").text
+	r1=requests.get("https://github.com/Anup-santra/py.txt/blob/main/py.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1334,7 +1334,6 @@ def Subscraption():
 		print (" Your Key : "+ak+ah+key1 )
 		print ("")
 		name = input(" Your Name : ")
-		print ("")
 		print ("")
 		lol = input(" Your Your Email : ")
 		print ("")
